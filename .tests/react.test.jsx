@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
-import App from '/home/chef/workspace/src/App'
+import App from '../src/App'
 
 describe('1. Component Structure', () => {
   it('has the correct title', () => {

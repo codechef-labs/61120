@@ -7,7 +7,7 @@ export default defineConfig({
     test: {
         globals: true,
         environment: 'jsdom',
-        setupFiles: '/home/chef/workspace/.test/setup.js',
+        setupFiles: '.tests/setup.js',
         outputFile: 'test-results.json',
         reporters: ['json']
     }
